@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Accueil from "./components/pages/Accueil";
+import Categorie from "../components/pages/Categorie";
 
 export default function Home() {
   return (
-    <Accueil /> 
+    <Categorie /> 
   );
 }

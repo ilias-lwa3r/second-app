@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Form, Button, Checkbox, Menu } from 'antd';
 import Questions from '../../../data/questions';
+import Link from 'next/link';
   
 
 const FormPage = () => {
@@ -41,7 +42,7 @@ const FormPage = () => {
       </Header>
       <Main>
         <FormTitle>
-          Data Maturity Assessment for EDIHH Customers
+          Data Maturity Assessment for EDIH Customers
         </FormTitle>
         <FormContainer>
           <MenuContainer>
@@ -78,7 +79,7 @@ const FormPage = () => {
                   type="primary"
                   htmlType="submit"
                 >
-                  Submit
+                  <Link href="/results">Submit</Link>
                 </SubmitButton>
               )}
             </Form>

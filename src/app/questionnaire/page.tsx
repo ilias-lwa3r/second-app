@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Accueil from "./components/pages/Accueil";
+import FormPage from "../components/pages/FormPage";
 
 export default function Home() {
   return (
-    <Accueil /> 
+    <FormPage /> 
   );
 }
