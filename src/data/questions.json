@@ -1,0 +1,220 @@
+{
+    "title": "Pilotage du digital",
+    "categories": [
+        {
+            "title": "Positionnement stratégique",
+            "questions": [
+                {
+                    "id": 49,
+                    "question": "Votre entreprise effectue-t-elle une veille sur les sujets DATA-IA ?",
+                    "options": [
+                        "Nous avons identifié le numérique comme une source d'opportunités sans veille particulière.",
+                        "Des dispositifs de veille sont en place mais restent ponctuelles sur des thématiques précises.",
+                        "Notre dispositif de veille concerne l'ensemble des aspects de notre activité.",
+                        "En plus de concerner l'ensemble des aspects de notre activité, nous avons un groupe de réflexion sur les futures évolutions du numérique qui nourrit la réflexion stratégique."
+                    ]
+                },
+                {
+                    "id": 5,
+                    "question": "Comment évaluez vous l'impact du numérique sur la concurrence ? (nouvelles offres, nouveaux entrants, changement de comportement des clients ?)",
+                    "options": [
+                        "Aucun impact du numérique sur l'écosystème n'a été identifié",
+                        "Un changement dans l'écosystème des concurrents a été perçu mais cela reste flou.",
+                        "Les nouveaux concurrents arrivés par le numérique ont été identifiés et plusieurs actions ont été lancées pour s'adapter.",
+                        "Les changements induits par le numérique dans l'écosystème des concurrents sont suivis et des actions sont prises de manière réactive."
+                    ]
+                },
+                {
+                    "id": 11,
+                    "question": "Dans quelle mesure votre chaine de valeur peut-elle être renforcée grâce au numérique ?",
+                    "options": [
+                        "Aucune opportunité numérique concrète n'a été identifiée pour renforcer la chaîne de valeurs.",
+                        "Des pistes d'amélioration offertes par le numérique ont été identifiées pour renforcer certains maillons de la chaîne de valeurs.",
+                        "Les pistes d'amélioration concernent l'ensemble des maillons de la chaine.",
+                        "Le numérique est identifié comme le principal levier pour renforcer la chaîne de valeurs. Les actions sont initiées sur l'ensemble de la chaîne."
+                    ]
+                },
+                {
+                    "id": 52,
+                    "question": "Quelles sont les ambitions de votre entreprise en matière de numérique ?",
+                    "options": [
+                        "Nous n'avons pas d'ambition particulière sur le numérique.",
+                        "Nous souhaitons bénéficier de certains avantages et opportunités offerts par le numérique.",
+                        "Nous souhaitons être au niveau des entreprises/organisations les plus avancées dans la transformation numérique.",
+                        "Nous souhaitons être exemplaire et nous différencier sur le marché pour atteindre nos objectifs."
+                    ]
+                },
+                {
+                    "id": 3,
+                    "question": "Comment se met en place l'innovation dans votre entreprise ? ",
+                    "options": [
+                        "Nous n'avons pas d'approche construite sur le sujet.",
+                        "Nous procédons à une veille technologique sur les sujets proches de notre cœur de métier.",
+                        "Nous avons des méthodes de Test & Learn à échelle réduite.",
+                        "Nous innovons continuellement (équipes dédiées, initiatives coordonnées, expérimentations Test&Learn)."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Feuille de route",
+            "questions": [
+                {
+                    "id": 47,
+                    "question": "Votre entreprise dispose-t-elle d'une feuille de route pour sa transformation numérique ?",
+                    "options": [
+                        "Rien n'a été formalisé mais nous avons des initiatives informelles.",
+                        "Nous avons créé une feuille de route de la transformation numérique sur certaines thématiques (Offres, RH, Processus internes, …).",
+                        "Nous avons une feuille de route globale qui fixe les orientations et les objectifs sur l'ensemble des thématiques.",
+                        "Cette feuille de route globale est associée à des tableaux de bord pour piloter et suivre la trajectoire de façon régulière."
+                    ]
+                },
+                {
+                    "id": 88,
+                    "question": "Avez-vous un projet numérique en lien avec la data / IA à venir ?",
+                    "options": [
+                        "Aucun projet numérique en lien avec la data / IA n'a été identifié.",
+                        "Un projet a été identifié mais n'est pour l'instant pas programmé à court terme.",
+                        "Un projet numérique a été identifié, il est en cours ou va s'enclencher rapidement.",
+                        "Nous avons des projets en permanence."
+                    ]
+                },
+                {
+                    "id": 85,
+                    "question": "Avez-vous identifié des problématiques à résoudre avant d'initier des projets data IA ?",
+                    "options": [
+                        "Aucune réflexion n'a été menée sur ce sujet.",
+                        "Des problématiques ont bien été identifiées (qualité de la donnée, collecte, compétences, …).",
+                        "Nous avons pris en main la résolution des problèmes (chantiers sur le nettoyage des données…).",
+                        "Les problématiques sont maitrisées et notre réflexion porte maintenant sur la manière de qualifier et dimensionner nos projets data / IA."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pilotage et ressources",
+            "questions": [
+                {
+                    "id": 58,
+                    "question": "Quel est le niveau d'implication des équipes de direction dans la transformation numérique ?",
+                    "options": [
+                        "Le comité de direction ne s'est pas impliqué sur ce sujet.",
+                        "La transformation numérique est prise en compte par le comité de direction sans engagement clair pour l'instant.",
+                        "L'enjeu est clairement identifié par le comité de direction : un plan stratégique est initié ou est en cours de finalisation.",
+                        "Le numérique est un élément majeur de la stratégie définie par le comité de direction, des moyens humains et financiers sont mis en place."
+                    ]
+                },
+                {
+                    "id": 51,
+                    "question": "Quelle est la capacité de votre entreprise à allouer des budgets pour sa transformation numérique ?",
+                    "options": [
+                        "Aucun budget spécifique n'est définit pour le numérique.",
+                        "Un budget est identifié pour le numérique, sans qu'il soit fléché sur des thématiques.",
+                        "Des budgets sont définis à l'avance sur une ou plusieurs thématiques (DATA, RH, Offres, …).",
+                        "Un budget est alloué à la transformation numérique globale de l'organisation et est décliné sur toutes les thématiques."
+                    ]
+                },
+                {
+                    "id": 86,
+                    "question": "Connaissez-vous les aides disponibles au niveau régional, européen... pour des projets digitaux, data ou pour l'innovation en général ? ",
+                    "options": [
+                        "Vous ne connaissez aucun dispositif d'aide.",
+                        "Vous avez identifié et recouru à des dispositifs d'aide locaux sans complexité de montage.",
+                        "Vous avez, en plus, l'habitude de répondre à des appels à projet plus complexes.",
+                        "Vous ciblez des programmes européens de soutien."
+                    ]
+                },
+                {
+                    "id": 8,
+                    "question": "Avez-vous eu l'occasion de monter des projets en coproduction ou en codéveloppement avec d'autres partenaires ?",
+                    "options": [
+                        "Nous n'avons rien développé avec d'autres membres de mon réseau de partenaires.",
+                        "Des expériences sur le développement de produit ou service sont partagées sans être concrétisées.",
+                        "Un produit ou service au moins a été développé avec un partenaire.",
+                        "Une communauté d'entreprise dont fait partie la nôtre se réunit régulièrement pour cocréer des produits ou services."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Conduite du changement",
+            "questions": [
+                {
+                    "id": 54,
+                    "question": "Quel est le degré d'acceptation du changement induit par le numérique ?",
+                    "options": [
+                        "Aucun projet numérique n'a été conduit récemment.",
+                        "Le dernier projet numérique a suscité des inquiétudes et quelques résistances.",
+                        "Le dernier projet numérique a été dans l'ensemble bien accueilli.",
+                        "Le dernier projet numérique a suscité un grand engouement et certains collaborateurs ont été proactifs."
+                    ]
+                },
+                {
+                    "id": 70,
+                    "question": "Comment gérez vous cette conduite du changement ?",
+                    "options": [
+                        "Nous ne la prenons pas vraiment en compte, le numérique est un sujet technique.",
+                        "Nous essayons d'anticiper les besoins de formation.",
+                        "Chaque nouveau projet s'accompagne d'un plan d'information et de formation progressif.",
+                        "Les salariés sont parties prenantes dès le démarrage du projet."
+                    ]
+                },
+                {
+                    "id": 53,
+                    "question": "Comment la culture du numérique est-elle diffusée au sein de l'organisation ?",
+                    "options": [
+                        "Nous n'avons pas de communication interne généralisée sur le numérique.",
+                        "Nous incluons des actu dans notre communication générale sans réel plan de communication.",
+                        "Nous communiquons et informons les collaborateurs sur les initiatives et actualités importantes (calendrier RGPD, cyber sécurité).",
+                        "Nos communications sont récurrentes via des newsletter, et des vidéos pour créer une véritable culture numérique."
+                    ]
+                },
+                {
+                    "id": 66,
+                    "question": "Dans quelle mesure l'évolution des compétences ont-elles été identifiées pour s'adapter aux enjeux du numérique ?",
+                    "options": [
+                        "Les compétences liées au numérique sont faiblement identifiées dans le cas de notre entreprise.",
+                        "Les compétences numériques ont été bien identifiées pour certains de nos métiers (marketing, RH, techniciens...).",
+                        "Ces compétences ont été intégrées à l'ensemble des besoins métiers et les fiches de poste ont été adaptées.",
+                        "Les besoins en compétences sont anticipés en fonction de la vision stratégique de l'entreprise, notamment sur les enjeux du numérique."
+                    ]
+                },
+                {
+                    "id": 87,
+                    "question": "Avez-vous identifié et/ou développé de nouvelles fonctions pour mener des projets data / IA ?",
+                    "options": [
+                        "Nous n'avons pas fait évoluer notre fonctionnement pour travailler sur la data.",
+                        "Les besoins des projets data font évoluer progressivement les compétences de l'équipe en place.",
+                        "Des compétences nouvelles ont été identifiées pour être en mesure de mener ces projets.",
+                        "Nous avons constitué une équipe dédiée à la gestion de la data."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Pilote et ressources",
+            "questions": [
+                {
+                    "id": 32,
+                    "question": "Dans quelle mesure les outils numériques sont-ils gérés en interne ou externalisés ?",
+                    "options": [
+                        "La gestion de l'ensemble des outils numériques est externalisée.",
+                        "Les outils numériques sont gérés en partie en interne mais les évolutions et supports techniques sont réalisés par les prestataires.",
+                        "Notre entreprise a la capacité de gérer et de faire évoluer ses outils numériques en interne.",
+                        "En plus de la gestion et du développement des outils numériques, nous avons des initiatives internes sur de nouveaux usages de nos données."
+                    ]
+                },
+                {
+                    "id": 56,
+                    "question": "Existe-t-il une équipe dédiée à la transformation numérique au sein de votre structure ?",
+                    "options": [
+                        "Nous n'avons pas identifié de personne pour travailler sur le numérique.",
+                        "Une personne au moins a été identifiée au sein de l'organisation comme ayant une expertise sur le numérique.",
+                        "Au moins une personne travaille à plein temps sur le numérique.",
+                        "Un pôle de la transformation numérique de notre entreprise a été créé. Il dispose de son propre budget et fonctionne en mode projet."
+                    ]
+                }
+            ]
+        }
+    ]
+}
