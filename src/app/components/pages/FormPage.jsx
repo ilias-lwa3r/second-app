@@ -1,54 +1,85 @@
 'use client'
 import React from 'react';
 import styled from 'styled-components';
-import { Form, Button, Checkbox, Menu } from 'antd';
+import { Form, Button, Checkbox, Menu, Input } from 'antd';
 import Questions from '../../../data/questions';
-import Link from 'next/link';
-  
 
+// TODO: Use context for tmp database for the user answers
 const FormPage = () => {
-  const categories = Questions.categories.map(q => ({ key: q.title, label: <span style={{ fontWeight: 'bold' }}>{q.title}</span> }));
-  const [selectedCategory, setSelectedCategory] = React.useState(categories[0].key);
+  const [form] = Form.useForm();
+  const categories = Questions.categories.map((q, i) => ({
+    key: `${q.title}-${i}`,
+    label: <span style={{ fontWeight: 'bold' }}>{q.title}</span>
+  }));
 
-  const questions = Questions.categories.find(q => q.title === selectedCategory)?.questions || [];
+  const [selectedCategory, setSelectedCategory] = React.useState(categories[0].key);
+  const [formValues, setFormValues] = React.useState({});
 
   const handleMenuClick = (e) => {
-    const selectedCategory = e.key;
-    setSelectedCategory(selectedCategory);
+    const currentValues = form.getFieldsValue();
+    setFormValues(prev => ({ ...prev, [selectedCategory]: currentValues }));
+    setSelectedCategory(e.key);
+    form.setFieldsValue(formValues[e.key] || {});
   };
 
-  const renderQuestions = (category) => {
-    const categoryQuestions = Questions.categories.find(q => q.title === category)?.questions || [];
-    return categoryQuestions.map((question, index) => (
-      <StyledFormItem
-        key={question.question}
-        label={`${index + 1}. ${question.question}`}
-        name={question.name}
-      >
-        <StyledAnswer
-          options={question.options}
-          style={{ display: 'flex', flexDirection: 'column' }}
-        />
-      </StyledFormItem>
-    ));
+  const handleSubmit = (values) => {
+    const allValues = { ...formValues, [selectedCategory]: values };
+    console.log('User Answers:', allValues);
+    // Now allValues will have arrays of marks for the checked options.
   };
 
+  React.useEffect(() => {
+    form.setFieldsValue(formValues[selectedCategory] || {});
+  }, [selectedCategory, form, formValues]);
+
+  const renderQuestions = (categoryKey) => {
+    const parts = categoryKey.split('-');
+    parts.pop(); // Remove the last part (the index)
+    const categoryTitle = parts.join('-');
+
+    const categoryQuestions = Questions.categories.find(q => q.title === categoryTitle)?.questions || [];
+    return categoryQuestions.map((question, index) => {
+      const questionKey = `q_${categoryTitle}_${index}`;
+
+      // Convert options to {label, value} format, where value is the mark
+      const checkboxOptions = question.options.map(o => ({
+        label: o.text,
+        value: o.mark
+      })).concat({ label: 'Autres', value: 'Autres' });
+
+      return (
+        <React.Fragment key={questionKey}>
+          <StyledFormItem
+            label={`${index + 1}. ${question.question}`}
+            name={questionKey}
+          >
+            <Checkbox.Group
+              options={checkboxOptions}
+              style={{ display: 'flex', flexDirection: 'column' }}
+            />
+          </StyledFormItem>
+          <Form.Item name={`${questionKey}_comment`}>
+            <Comments placeholder="Commentaires" />
+          </Form.Item>
+        </React.Fragment>
+      );
+    });
+  };
 
   return (
     <PageLayout>
       <Header>
-        <img src="/assets/logoApp.png" alt="logo" width="60px" />
+        <h>VisionPro</h>
         <img src="https://www.pole-emc2.fr/app/uploads/2019/09/emc2-logo.png" alt="logo" width="60px" />
       </Header>
       <Main>
         <FormTitle>
-          Data Maturity Assessment for EDIH Customers
+          Data Maturity Assessment for EDIHH Customers
         </FormTitle>
         <FormContainer>
           <MenuContainer>
             <StyledMenu
-              defaultSelectedKeys={['category1']}
-              defaultOpenKeys={['sub1']}
+              selectedKeys={[selectedCategory]}
               mode="inline"
               style={{ width: '100%', background: '#f0f2f5' }}
               items={categories}
@@ -57,29 +88,15 @@ const FormPage = () => {
           </MenuContainer>
           <ScrollableForm>
             <Form
+              form={form}
               name="basic"
-              initialValues={{ remember: true }}
               layout="vertical"
+              onFinish={handleSubmit}
             >
-              {selectedCategory === 'category1' && questions.map((question, index) => (
-                <StyledFormItem
-                  key={question.name}
-                  label={`${index + 1}. ${question.label}`}
-                  name={question.name}
-                >
-                  <StyledAnswer
-                    options={question.options}
-                    style={{ display: 'flex', flexDirection: 'column' }}
-                  />
-                </StyledFormItem>
-              ))}
               {renderQuestions(selectedCategory)}
               {selectedCategory === categories[categories.length - 1].key && (
-                <SubmitButton
-                  type="primary"
-                  htmlType="submit"
-                >
-                  <Link href="/results">Submit</Link>
+                <SubmitButton type="primary" htmlType="submit">
+                  Submit
                 </SubmitButton>
               )}
             </Form>
@@ -142,13 +159,6 @@ const StyledFormItem = styled(Form.Item)`
     }
 `;
 
-const StyledAnswer = styled(Checkbox.Group)`
-    .ant-checkbox-wrapper {
-        font-size: 1.2rem;
-        padding: 0 2em;
-    }
-`;
-
 const FormContainer = styled.div`
     display: flex;
     gap: 50px;
@@ -170,6 +180,7 @@ const ScrollableForm = styled.div`
     max-height: 80vh;
     overflow-y: auto;
 `;
+
 const SubmitButton = styled(Button)`
     position: fixed;
     bottom: 50px;
@@ -180,6 +191,12 @@ const SubmitButton = styled(Button)`
     font-weight: bold;
     font-size: 1.2rem;
     border-radius: 1em;    
+`;
+
+const Comments = styled(Input)`
+    margin-top: 10px;
+    margin-left: 2.7em;
+    width: 50%;
 `;
 
 export default FormPage;
