@@ -1,10 +1,7 @@
 'use client'
-import Image from "next/image";
 import RadarChart from "../components/pages/Radar";
 import GaugeChart from "../components/pages/Gauge";
-import Link from 'next/link';
 import styled from 'styled-components';
-import { Form, Button, Checkbox, Menu } from 'antd';
 
 export default function Home() {
     const myData = [50, 30, 50, 50, 0, 30];
@@ -89,12 +86,6 @@ const FormTitle = styled.h2`
     font-weight: bold;
     margin: 0 auto;
 `;
-const Navigation = styled.h2`
-    background-color: rgba(0,73,83);
-    padding: 2px 50px;
-    border-radius: 2em;
-    margin: 0 auto;
-`;
 
 const PageLayout = styled.div`
     display: flex;
@@ -109,21 +100,6 @@ const GaugeContainer = styled.div`
     margin: 5px;
 `;
 
-
-const StyledFormItem = styled(Form.Item)`
-    .ant-form-item-label > label {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: #2b677b;
-    }
-`;
-
-const StyledAnswer = styled(Checkbox.Group)`
-    .ant-checkbox-wrapper {
-        font-size: 1.2rem;
-        padding: 0 2em;
-    }
-`;
 
 const ChartContainer = styled.div`
     display: grid;
@@ -143,27 +119,4 @@ const DetailedCharts = styled.div`
 
 
     
-`;
-
-const StyledMenu = styled(Menu)`
-    width: 100%;
-    height: 100%;
-    border-radius: 1.25em;
-`;
-
-const ScrollableForm = styled.div`
-    flex: 1;
-    max-height: 80vh;
-    overflow-y: auto;
-`;
-const SubmitButton = styled(Button)`
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 1000;
-    background-color: #989b04;
-    color: black;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 1em;    
 `;

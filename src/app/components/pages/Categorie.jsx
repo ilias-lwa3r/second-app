@@ -1,8 +1,6 @@
 'use client'
 import React from 'react';
 import styled from 'styled-components';
-import { Form, Button, Checkbox, Menu } from 'antd';
-import Questions from '../../../data/questions';
 import Link from 'next/link';
 
   
@@ -93,55 +91,6 @@ const PageLayout = styled.div`
         flex: 1;
     }
 `;
-
-const StyledFormItem = styled(Form.Item)`
-    .ant-form-item-label > label {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: #2b677b;
-    }
-`;
-
-const StyledAnswer = styled(Checkbox.Group)`
-    .ant-checkbox-wrapper {
-        font-size: 1.2rem;
-        padding: 0 2em;
-    }
-`;
-
-const FormContainer = styled.div`
-    display: flex;
-    gap: 50px;
-    height: 70vh;
-`;
-
-const MenuContainer = styled.div`
-    width: 50%;
-`;
-
-const StyledMenu = styled(Menu)`
-    width: 100%;
-    height: 100%;
-    border-radius: 1.25em;
-`;
-
-const ScrollableForm = styled.div`
-    flex: 1;
-    max-height: 80vh;
-    overflow-y: auto;
-`;
-const SubmitButton = styled(Button)`
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 1000;
-    background-color: #989b04;
-    color: black;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 1em;    
-`;
-
 
 
 export default Categorie;
