@@ -1,11 +1,13 @@
 'use client'
 import React from 'react';
+import { useRouter } from 'next/compat/router';
 import styled from 'styled-components';
 import { Form, Button, Checkbox, Menu, Input } from 'antd';
 import Questions from '../../../data/questions';
 
 // TODO: Use context for tmp database for the user answers
 const FormPage = () => {
+  const router = useRouter();
   const [form] = Form.useForm();
   const categories = Questions.categories.map((q, i) => ({
     key: `${q.title}-${i}`,
@@ -26,6 +28,7 @@ const FormPage = () => {
     const allValues = { ...formValues, [selectedCategory]: values };
     console.log('User Answers:', allValues);
     // Now allValues will have arrays of marks for the checked options.
+    router.push('/results');
   };
 
   React.useEffect(() => {
@@ -69,7 +72,7 @@ const FormPage = () => {
   return (
     <PageLayout>
       <Header>
-        <h>VisionPro</h>
+        <h1>VisionPro</h1>
         <img src="https://www.pole-emc2.fr/app/uploads/2019/09/emc2-logo.png" alt="logo" width="60px" />
       </Header>
       <Main>
