@@ -1,448 +1,651 @@
 {
-    "title": "Pilotage du digital",
-    "categories": [
-        {
+    "themes": [
+      {
+        "id": "pilotage_du_digital",
+        "title": "Pilotage du digital",
+        "sous_themes": [
+          {
+            "id": "positionnement_strategique",
             "title": "Positionnement stratégique",
             "questions": [
-                {
-                    "id": 49,
-                    "question": "Votre entreprise effectue-t-elle une veille sur les sujets DATA-IA ?",
-                    "options": [
-                        {
-                            "text": "Nous avons identifié le numérique comme une source d'opportunités sans veille particulière.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Des dispositifs de veille sont en place mais restent ponctuelles sur des thématiques précises.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Notre dispositif de veille concerne l'ensemble des aspects de notre activité.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "En plus de concerner l'ensemble des aspects de notre activité, nous avons un groupe de réflexion sur les futures évolutions du numérique qui nourrit la réflexion stratégique.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "question": "Comment évaluez vous l'impact du numérique sur la concurrence ? (nouvelles offres, nouveaux entrants, changement de comportement des clients ?)",
-                    "options": [
-                        {
-                            "text": "Aucun impact du numérique sur l'écosystème n'a été identifié",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Un changement dans l'écosystème des concurrents a été perçu mais cela reste flou.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Les nouveaux concurrents arrivés par le numérique ont été identifiés et plusieurs actions ont été lancées pour s'adapter.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Les changements induits par le numérique dans l'écosystème des concurrents sont suivis et des actions sont prises de manière réactive.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 11,
-                    "question": "Dans quelle mesure votre chaine de valeur peut-elle être renforcée grâce au numérique ?",
-                    "options": [
-                        {
-                            "text": "Aucune opportunité numérique concrète n'a été identifiée pour renforcer la chaîne de valeurs.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Des pistes d'amélioration offertes par le numérique ont été identifiées pour renforcer certains maillons de la chaîne de valeurs.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Les pistes d'amélioration concernent l'ensemble des maillons de la chaine.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Le numérique est identifié comme le principal levier pour renforcer la chaîne de valeurs. Les actions sont initiées sur l'ensemble de la chaîne.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 52,
-                    "question": "Quelles sont les ambitions de votre entreprise en matière de numérique ?",
-                    "options": [
-                        {
-                            "text": "Nous n'avons pas d'ambition particulière sur le numérique.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Nous souhaitons bénéficier de certains avantages et opportunités offerts par le numérique.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Nous souhaitons être au niveau des entreprises/organisations les plus avancées dans la transformation numérique.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Nous souhaitons être exemplaire et nous différencier sur le marché pour atteindre nos objectifs.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "question": "Comment se met en place l'innovation dans votre entreprise ? ",
-                    "options": [
-                        {
-                            "text": "Nous n'avons pas d'approche construite sur le sujet.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Nous procédons à une veille technologique sur les sujets proches de notre cœur de métier.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Nous avons des méthodes de Test & Learn à échelle réduite.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Nous innovons continuellement (équipes dédiées, initiatives coordonnées, expérimentations Test&Learn).",
-                            "mark": 4
-                        }
-                    ]
-                }
+              {
+                "id": 49,
+                "text": "Votre entreprise effectue-t-elle une veille sur les sujets DATA-IA ?",
+                "options": [
+                  "Nous avons identifié le numérique comme une source d'opportunités sans veille particulière.",
+                  "Des dispositifs de veille sont en place mais restent ponctuels sur des thématiques précises.",
+                  "Notre dispositif de veille concerne l'ensemble des aspects de notre activité.",
+                  "En plus de concerner l'ensemble des aspects de notre activité, nous avons un groupe de réflexion sur les futures évolutions du numérique qui nourrit la réflexion stratégique."
+                ]
+              },
+              {
+                "id": 5,
+                "text": "Comment évaluez-vous l'impact du numérique sur la concurrence ? (nouvelles offres, nouveaux entrants, changement de comportement des clients ?)",
+                "options": [
+                  "Aucun impact du numérique sur l'écosystème n'a été identifié.",
+                  "Un changement dans l'écosystème des concurrents a été perçu mais cela reste flou.",
+                  "Les nouveaux concurrents arrivés par le numérique ont été identifiés et plusieurs actions ont été lancées pour s'adapter.",
+                  "Les changements induits par le numérique dans l'écosystème des concurrents sont suivis et des actions sont prises de manière réactive."
+                ]
+              },
+              {
+                "id": 11,
+                "text": "Dans quelle mesure votre chaine de valeur peut-elle être renforcée grâce au numérique ?",
+                "options": [
+                  "Aucune opportunité numérique concrète n'a été identifiée pour renforcer la chaîne de valeurs.",
+                  "Des pistes d'amélioration offertes par le numérique ont été identifiées pour renforcer certains maillons de la chaîne de valeurs.",
+                  "Les pistes d'amélioration concernent l'ensemble des maillons de la chaîne.",
+                  "Le numérique est identifié comme le principal levier pour renforcer la chaîne de valeurs. Les actions sont initiées sur l'ensemble de la chaîne."
+                ]
+              },
+              {
+                "id": 52,
+                "text": "Quelles sont les ambitions de votre entreprise en matière de numérique ?",
+                "options": [
+                  "Nous n'avons pas d'ambition particulière sur le numérique.",
+                  "Nous souhaitons bénéficier de certains avantages et opportunités offerts par le numérique.",
+                  "Nous souhaitons être au niveau des entreprises/organisations les plus avancées dans la transformation numérique.",
+                  "Nous souhaitons être exemplaire et nous différencier sur le marché pour atteindre nos objectifs."
+                ]
+              },
+              {
+                "id": 3,
+                "text": "Comment se met en place l'innovation dans votre entreprise ?",
+                "options": [
+                  "Nous n'avons pas d'approche construite sur le sujet.",
+                  "Nous procédons à une veille technologique sur les sujets proches de notre cœur de métier.",
+                  "Nous avons des méthodes de Test & Learn à échelle réduite.",
+                  "Nous innovons continuellement (équipes dédiées, initiatives coordonnées, expérimentations Test&Learn)."
+                ]
+              }
             ]
-        },
-        {
+          },
+          {
+            "id": "feuille_de_route",
             "title": "Feuille de route",
             "questions": [
-                {
-                    "id": 47,
-                    "question": "Votre entreprise dispose-t-elle d'une feuille de route pour sa transformation numérique ?",
-                    "options": [
-                        {
-                            "text": "Rien n'a été formalisé mais nous avons des initiatives informelles.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Nous avons créé une feuille de route de la transformation numérique sur certaines thématiques (Offres, RH, Processus internes, …).",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Nous avons une feuille de route globale qui fixe les orientations et les objectifs sur l'ensemble des thématiques.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Cette feuille de route globale est associée à des tableaux de bord pour piloter et suivre la trajectoire de façon régulière.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 88,
-                    "question": "Avez-vous un projet numérique en lien avec la data / IA à venir ?",
-                    "options": [
-                        {
-                            "text": "Aucun projet numérique en lien avec la data / IA n'a été identifié.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Un projet a été identifié mais n'est pour l'instant pas programmé à court terme.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Un projet numérique a été identifié, il est en cours ou va s'enclencher rapidement.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Nous avons des projets en permanence.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 85,
-                    "question": "Avez-vous identifié des problématiques à résoudre avant d'initier des projets data IA ?",
-                    "options": [
-                        {
-                            "text": "Aucune réflexion n'a été menée sur ce sujet.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Des problématiques ont bien été identifiées (qualité de la donnée, collecte, compétences, …).",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Nous avons pris en main la résolution des problèmes (chantiers sur le nettoyage des données…).",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Les problématiques sont maitrisées et notre réflexion porte maintenant sur la manière de qualifier et dimensionner nos projets data / IA.",
-                            "mark": 4
-                        }
-                    ]
-                }
+              {
+                "id": 47,
+                "text": "Votre entreprise dispose-t-elle d'une feuille de route pour sa transformation numérique ?",
+                "options": [
+                  "Rien n'a été formalisé mais nous avons des initiatives informelles.",
+                  "Nous avons créé une feuille de route de la transformation numérique sur certaines thématiques (Offres, RH, Processus internes, …).",
+                  "Nous avons une feuille de route globale qui fixe les orientations et les objectifs sur l'ensemble des thématiques.",
+                  "Cette feuille de route globale est associée à des tableaux de bord pour piloter et suivre la trajectoire de façon régulière."
+                ]
+              },
+              {
+                "id": 88,
+                "text": "Avez-vous un projet numérique en lien avec la data / IA à venir ?",
+                "options": [
+                  "Aucun projet numérique en lien avec la data / IA n'a été identifié.",
+                  "Un projet a été identifié mais n'est pour l'instant pas programmé à court terme.",
+                  "Un projet numérique a été identifié, il est en cours ou va s'enclencher rapidement.",
+                  "Nous avons des projets en permanence."
+                ]
+              },
+              {
+                "id": 85,
+                "text": "Avez-vous identifié des problématiques à résoudre avant d'initier des projets data IA ?",
+                "options": [
+                  "Aucune réflexion n'a été menée sur ce sujet.",
+                  "Des problématiques ont bien été identifiées (qualité de la donnée, collecte, compétences, …).",
+                  "Nous avons pris en main la résolution des problèmes (chantiers sur le nettoyage des données…).",
+                  "Les problématiques sont maitrisées et notre réflexion porte maintenant sur la manière de qualifier et dimensionner nos projets data / IA."
+                ]
+              }
             ]
-        },
-        {
+          },
+          {
+            "id": "pilotage_et_ressources",
             "title": "Pilotage et ressources",
             "questions": [
-                {
-                    "id": 58,
-                    "question": "Quel est le niveau d'implication des équipes de direction dans la transformation numérique ?",
-                    "options": [
-                        {
-                            "text": "Le comité de direction ne s'est pas impliqué sur ce sujet.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "La transformation numérique est prise en compte par le comité de direction sans engagement clair pour l'instant.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "L'enjeu est clairement identifié par le comité de direction : un plan stratégique est initié ou est en cours de finalisation.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Le numérique est un élément majeur de la stratégie définie par le comité de direction, des moyens humains et financiers sont mis en place.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 51,
-                    "question": "Quelle est la capacité de votre entreprise à allouer des budgets pour sa transformation numérique ?",
-                    "options": [
-                        {
-                            "text": "Aucun budget spécifique n'est définit pour le numérique.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Un budget est identifié pour le numérique, sans qu'il soit fléché sur des thématiques.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Des budgets sont définis à l'avance sur une ou plusieurs thématiques (DATA, RH, Offres, …).",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Un budget est alloué à la transformation numérique globale de l'organisation et est décliné sur toutes les thématiques.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 86,
-                    "question": "Connaissez-vous les aides disponibles au niveau régional, européen... pour des projets digitaux, data ou pour l'innovation en général ? ",
-                    "options": [
-                        {
-                            "text": "Vous ne connaissez aucun dispositif d'aide.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Vous avez identifié et recouru à des dispositifs d'aide locaux sans complexité de montage.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Vous avez, en plus, l'habitude de répondre à des appels à projet plus complexes.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Vous ciblez des programmes européens de soutien.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "question": "Avez-vous eu l'occasion de monter des projets en coproduction ou en codéveloppement avec d'autres partenaires ?",
-                    "options": [
-                        {
-                            "text": "Nous n'avons rien développé avec d'autres membres de mon réseau de partenaires.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Des expériences sur le développement de produit ou service sont partagées sans être concrétisées.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Un produit ou service au moins a été développé avec un partenaire.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Une communauté d'entreprise dont fait partie la nôtre se réunit régulièrement pour cocréer des produits ou services.",
-                            "mark": 4
-                        }
-                    ]
-                }
+              {
+                "id": 58,
+                "text": "Quel est le niveau d'implication des équipes de direction dans la transformation numérique ?",
+                "options": [
+                  "Le comité de direction ne s'est pas impliqué sur ce sujet.",
+                  "La transformation numérique est prise en compte par le comité de direction sans engagement clair pour l'instant.",
+                  "L'enjeu est clairement identifié par le comité de direction : un plan stratégique est initié ou est en cours de finalisation.",
+                  "Le numérique est un élément majeur de la stratégie définie par le comité de direction, des moyens humains et financiers sont mis en place."
+                ]
+              },
+              {
+                "id": 51,
+                "text": "Quelle est la capacité de votre entreprise à allouer des budgets pour sa transformation numérique ?",
+                "options": [
+                  "Aucun budget spécifique n'est définit pour le numérique.",
+                  "Un budget est identifié pour le numérique, sans qu'il soit fléché sur des thématiques.",
+                  "Des budgets sont définis à l'avance sur une ou plusieurs thématiques (DATA, RH, Offres, …).",
+                  "Un budget est alloué à la transformation numérique globale de l'organisation et est décliné sur toutes les thématiques."
+                ]
+              },
+              {
+                "id": 86,
+                "text": "Connaissez-vous les aides disponibles au niveau régional, européen... pour des projets digitaux, data ou pour l'innovation en général ?",
+                "options": [
+                  "Vous ne connaissez aucun dispositif d'aide.",
+                  "Vous avez identifié et recouru à des dispositifs d'aide locaux sans complexité de montage.",
+                  "Vous avez, en plus, l'habitude de répondre à des appels à projet plus complexes.",
+                  "Vous ciblez des programmes européens de soutien."
+                ]
+              },
+              {
+                "id": 8,
+                "text": "Avez-vous eu l'occasion de monter des projets en coproduction ou en codéveloppement avec d'autres partenaires ?",
+                "options": [
+                  "Nous n'avons rien développé avec d'autres membres de mon réseau de partenaires.",
+                  "Des expériences sur le développement de produit ou service sont partagées sans être concrétisées.",
+                  "Un produit ou service au moins a été développé avec un partenaire.",
+                  "Une communauté d'entreprise dont fait partie la nôtre se réunit régulièrement pour cocréer des produits ou services."
+                ]
+              }
             ]
-        },
-        {
+          },
+          {
+            "id": "conduite_du_changement",
             "title": "Conduite du changement",
             "questions": [
-                {
-                    "id": 54,
-                    "question": "Quel est le degré d'acceptation du changement induit par le numérique ?",
-                    "options": [
-                        {
-                            "text": "Aucun projet numérique n'a été conduit récemment.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Le dernier projet numérique a suscité des inquiétudes et quelques résistances.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Le dernier projet numérique a été dans l'ensemble bien accueilli.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Le dernier projet numérique a suscité un grand engouement et certains collaborateurs ont été proactifs.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 70,
-                    "question": "Comment gérez vous cette conduite du changement ?",
-                    "options": [
-                        {
-                            "text": "Nous ne la prenons pas vraiment en compte, le numérique est un sujet technique.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Nous essayons d'anticiper les besoins de formation.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Chaque nouveau projet s'accompagne d'un plan d'information et de formation progressif.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Les salariés sont parties prenantes dès le démarrage du projet.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 53,
-                    "question": "Comment la culture du numérique est-elle diffusée au sein de l'organisation ?",
-                    "options": [
-                        {
-                            "text": "Nous n'avons pas de communication interne généralisée sur le numérique.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Nous incluons des actu dans notre communication générale sans réel plan de communication.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Nous communiquons et informons les collaborateurs sur les initiatives et actualités importantes (calendrier RGPD, cyber sécurité).",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Nos communications sont récurrentes via des newsletter, et des vidéos pour créer une véritable culture numérique.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 66,
-                    "question": "Dans quelle mesure l'évolution des compétences ont-elles été identifiées pour s'adapter aux enjeux du numérique ?",
-                    "options": [
-                        {
-                            "text": "Les compétences liées au numérique sont faiblement identifiées dans le cas de notre entreprise.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Les compétences numériques ont été bien identifiées pour certains de nos métiers (marketing, RH, techniciens...).",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Ces compétences ont été intégrées à l'ensemble des besoins métiers et les fiches de poste ont été adaptées.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Les besoins en compétences sont anticipés en fonction de la vision stratégique de l'entreprise, notamment sur les enjeux du numérique.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 87,
-                    "question": "Avez-vous identifié et/ou développé de nouvelles fonctions pour mener des projets data / IA ?",
-                    "options": [
-                        {
-                            "text": "Nous n'avons pas fait évoluer notre fonctionnement pour travailler sur la data.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Les besoins des projets data font évoluer progressivement les compétences de l'équipe en place.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Des compétences nouvelles ont été identifiées pour être en mesure de mener ces projets.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Nous avons constitué une équipe dédiée à la gestion de la data.",
-                            "mark": 4
-                        }
-                    ]
-                }
+              {
+                "id": 54,
+                "text": "Quel est le degré d'acceptation du changement induit par le numérique ?",
+                "options": [
+                  "Aucun projet numérique n'a été conduit récemment.",
+                  "Le dernier projet numérique a suscité des inquiétudes et quelques résistances.",
+                  "Le dernier projet numérique a été dans l'ensemble bien accueilli.",
+                  "Le dernier projet numérique a suscité un grand engouement et certains collaborateurs ont été proactifs."
+                ]
+              },
+              {
+                "id": 70,
+                "text": "Comment gérez-vous cette conduite du changement ?",
+                "options": [
+                  "Nous ne la prenons pas vraiment en compte, le numérique est un sujet technique.",
+                  "Nous essayons d'anticiper les besoins de formation.",
+                  "Chaque nouveau projet s'accompagne d'un plan d'information et de formation progressif.",
+                  "Les salariés sont parties prenantes dès le démarrage du projet."
+                ]
+              },
+              {
+                "id": 53,
+                "text": "Comment la culture du numérique est-elle diffusée au sein de l'organisation ?",
+                "options": [
+                  "Nous n'avons pas de communication interne généralisée sur le numérique.",
+                  "Nous incluons des actu dans notre communication générale sans réel plan de communication.",
+                  "Nous communiquons et informons les collaborateurs sur les initiatives et actualités importantes (calendrier RGPD, cyber sécurité).",
+                  "Nos communications sont récurrentes via des newsletter, et des vidéos pour créer une véritable culture numérique."
+                ]
+              },
+              {
+                "id": 66,
+                "text": "Dans quelle mesure l'évolution des compétences ont-elles été identifiées pour s'adapter aux enjeux du numérique ?",
+                "options": [
+                  "Les compétences liées au numérique sont faiblement identifiées dans le cas de notre entreprise.",
+                  "Les compétences numériques ont été bien identifiées pour certains de nos métiers (marketing, RH, techniciens...).",
+                  "Ces compétences ont été intégrées à l'ensemble des besoins métiers et les fiches de poste ont été adaptées.",
+                  "Les besoins en compétences sont anticipés en fonction de la vision stratégique de l'entreprise, notamment sur les enjeux du numérique."
+                ]
+              },
+              {
+                "id": 87,
+                "text": "Avez-vous identifié et/ou développé de nouvelles fonctions pour mener des projets data / IA ?",
+                "options": [
+                  "Nous n'avons pas fait évoluer notre fonctionnement pour travailler sur la data.",
+                  "Les besoins des projets data font évoluer progressivement les compétences de l'équipe en place.",
+                  "Des compétences nouvelles ont été identifiées pour être en mesure de mener ces projets.",
+                  "Nous avons constitué une équipe dédiée à la gestion de la data."
+                ]
+              }
             ]
-        },
-        {
+          },
+          {
+            "id": "pilote_et_ressources",
             "title": "Pilote et ressources",
             "questions": [
-                {
-                    "id": 32,
-                    "question": "Dans quelle mesure les outils numériques sont-ils gérés en interne ou externalisés ?",
-                    "options": [
-                        {
-                            "text": "La gestion de l'ensemble des outils numériques est externalisée.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Les outils numériques sont gérés en partie en interne mais les évolutions et supports techniques sont réalisés par les prestataires.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Notre entreprise a la capacité de gérer et de faire évoluer ses outils numériques en interne.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "En plus de la gestion et du développement des outils numériques, nous avons des initiatives internes sur de nouveaux usages de nos données.",
-                            "mark": 4
-                        }
-                    ]
-                },
-                {
-                    "id": 56,
-                    "question": "Existe-t-il une équipe dédiée à la transformation numérique au sein de votre structure ?",
-                    "options": [
-                        {
-                            "text": "Nous n'avons pas identifié de personne pour travailler sur le numérique.",
-                            "mark": 1
-                        },
-                        {
-                            "text": "Une personne au moins a été identifiée au sein de l'organisation comme ayant une expertise sur le numérique.",
-                            "mark": 2
-                        },
-                        {
-                            "text": "Au moins une personne travaille à plein temps sur le numérique.",
-                            "mark": 3
-                        },
-                        {
-                            "text": "Un pôle de la transformation numérique de notre entreprise a été créé. Il dispose de son propre budget et fonctionne en mode projet.",
-                            "mark": 4
-                        }
-                    ]
-                }
+              {
+                "id": 32,
+                "text": "Dans quelle mesure les outils numériques sont-ils gérés en interne ou externalisés ?",
+                "options": [
+                  "La gestion de l'ensemble des outils numériques est externalisée.",
+                  "Les outils numériques sont gérés en partie en interne mais les évolutions et supports techniques sont réalisés par les prestataires.",
+                  "Notre entreprise a la capacité de gérer et de faire évoluer ses outils numériques en interne.",
+                  "En plus de la gestion et du développement des outils numériques, nous avons des initiatives internes sur de nouveaux usages de nos données."
+                ]
+              },
+              {
+                "id": 56,
+                "text": "Existe-t-il une équipe dédiée à la transformation numérique au sein de votre structure ?",
+                "options": [
+                  "Nous n'avons pas identifié de personne pour travailler sur le numérique.",
+                  "Une personne au moins a été identifiée au sein de l'organisation comme ayant une expertise sur le numérique.",
+                  "Au moins une personne travaille à plein temps sur le numérique.",
+                  "Un pôle de la transformation numérique de notre entreprise a été créé. Il dispose de son propre budget et fonctionne en mode projet."
+                ]
+              }
             ]
-        }
+          }
+        ]
+      },
+      {
+        "id": "processus_internes",
+        "title": "Processus internes",
+        "sous_themes": [
+          {
+            "id": "systemes_information",
+            "title": "Systèmes d'information",
+            "questions": [
+              {
+                "id": 33,
+                "text": "Dans quelle mesure le rôle de la DSI a-t-il été repensé avec les enjeux actuels du numérique ?",
+                "options": [
+                  "Aucune évolution particulière du rôle de la DSI ou du prestataire informatique n'a été prévu.",
+                  "Un nouveau rôle de la DSI ou du prestataire informatique est envisagé mais nous en sommes au début de la réflexion.",
+                  "La DSI ou le prestataire informatique sont formellement les acteurs de la transformation numérique de notre entreprise.",
+                  "Nous avons une DSI intégrée au comité de direction de l'entreprise."
+                ]
+              },
+              {
+                "id": 74,
+                "text": "Dans quelle mesure les bases de données sont-elles unifiées ?",
+                "options": [
+                  "Il n'existe pas de base de données.",
+                  "Les données sont stockées dans plusieurs bases de données qui ne communiquent pas entre elles.",
+                  "Les données sont stockées dans plusieurs bases de données qui communiquent entre elles.",
+                  "L'ensemble des données ont été agrégées à un seul endroit. (entrepôt de données)."
+                ]
+              },
+              {
+                "id": 35,
+                "text": "Dans quelle mesure un schéma directeur précise la cohérence générale des applications de votre système d'information ?",
+                "options": [
+                  "Nous n'avons pas de schéma directeur des systèmes d'information.",
+                  "Le système évolue mais il n'y a pas de schéma directeur qui organise l'alignement des applications.",
+                  "Un schéma directeur récent des systèmes d'information (moins de 2 ans) a été conçu, intégrant l'alignement des différentes applications numériques.",
+                  "Le schéma directeur des systèmes d'information a permis l'alignement des différentes applications numériques."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gestion_administrative",
+            "title": "Gestion administrative",
+            "questions": [
+              {
+                "id": 23,
+                "text": "En cas d'organisation en filiales et succursales, dans quelle mesure la gestion administrative est-elle numérisée et centralisée ?",
+                "options": [
+                  "La gestion administrative entre filiales se fait via des canaux traditionnels (courrier, mail...).",
+                  "Une partie de la gestion inter filiale est dématérialisée.",
+                  "La gestion inter filiale est entièrement dématérialisée.",
+                  "Une plateforme de gestion administrative avec les filiales est utilisée."
+                ]
+              },
+              {
+                "id": 27,
+                "text": "Dans quelle mesure les processus administratifs sont-ils dématérialisés ou automatisés ?",
+                "options": [
+                  "La majeure partie du suivi administratif se fait manuellement avec une dématérialisation très partielle.",
+                  "Des logiciels de gestion couvrent partiellement les fonctions administratives.",
+                  "Un logiciel de gestion intégré ERP est partiellement déployé dans certains services.",
+                  "Un logiciel de gestion intégré ERP est totalement déployé dans l'ensemble des services."
+                ]
+              },
+              {
+                "id": 25,
+                "text": "La gestion administrative avec les clients est-elle numérisée ?",
+                "options": [
+                  "La gestion avec les clients se fait via des canaux traditionnels (courrier, mail).",
+                  "Une partie de la relation client est dématérialisée (facture, contrat).",
+                  "La relation client est entièrement dématérialisée.",
+                  "Une plateforme pour la gestion administrative avec les clients a été mise en place."
+                ]
+              },
+              {
+                "id": 26,
+                "text": "La gestion administrative avec les fournisseurs est-elle numérisée ?",
+                "options": [
+                  "La gestion administrative avec les fournisseurs se fait via des canaux traditionnels (courrier, mail).",
+                  "Une partie de la relation avec les fournisseurs est dématérialisée (facture, contrat).",
+                  "La relation avec les fournisseurs est entièrement dématérialisée.",
+                  "Une plateforme pour la gestion administrative avec les fournisseurs a été mise en place."
+                ]
+              },
+              {
+                "id": 30,
+                "text": "Quel est le degré d'automatisation de votre chaîne logistique (commande, livraison, expédition...) ?",
+                "options": [
+                  "Aucune des étapes de ma chaîne logistique n'est automatisée et aucune automatisation n'a été planifiée.",
+                  "Aucune automatisation n'est en place, mais nous menons des études pour automatiser certaines étapes.",
+                  "Quelques tâches répétitives sont automatisées.",
+                  "L'ensemble de la chaine logistique est intégrée et l'automatisation des processus répétitifs est très avancée."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rh",
+            "title": "RH",
+            "questions": [
+              {
+                "id": 38,
+                "text": "Comment le numérique favorise l'intelligence collective ?",
+                "options": [
+                  "Le numérique n'est pas utilisé pour faciliter l'intelligence collective.",
+                  "Des outils numériques ont été identifiés pour faciliter l'intelligence collective mais ils ne sont pas encore très utilisés.",
+                  "L'environnement de travail numérique a été revu pour favoriser le travail collectif.",
+                  "L'environnement de travail numérique est au cœur de l'animation de l'intelligence collective."
+                ]
+              },
+              {
+                "id": 36,
+                "text": "Comment le numérique favorise la collaboration entre les différents services ?",
+                "options": [
+                  "Entre des services différents, nous utilisons surtout des listes de diffusion par e-mail.",
+                  "Nous avons potentiellement des espaces transverses mais ils sont peu utilisés.",
+                  "Les équipes utilisent les solutions numériques déployées pour former des communautés transverses.",
+                  "L'appropriation des outils transverses est systématique et les projets associent différents services."
+                ]
+              },
+              {
+                "id": 72,
+                "text": "Comment les outils numériques améliorent-ils la productivité ?",
+                "options": [
+                  "Il n'y a pas d'actions en cours pour favoriser la productivité au travail via le numérique.",
+                  "Le numérique est identifié pour améliorer la productivité mais peu d'actions ont été réellement menées.",
+                  "L'environnement de travail numérique est régulièrement revu pour améliorer la productivité : flashage des ordres de fabrication, saisie des temps, logiciel de caisse, moyens de paiements...",
+                  "Nous avons une feuille de route pour améliorer la productivité au travail via le numérique."
+                ]
+              },
+              {
+                "id": 67,
+                "text": "Comment le numérique peut-il améliorer l'expérience salarié sur les processus RH et la formation continue ?",
+                "options": [
+                  "L'expérience salariée via le numérique n'est pas prise en compte.",
+                  "Des solutions numériques sont proposées pour certains processus RH (paye, évaluations, demandes de congés, évaluations…).",
+                  "L'expérience salariée via le numérique couvre tous les processus RH et inclut des modules de formation continue.",
+                  "La prise en compte de l'expérience salariée tient une place centrale et est mesurée par des indicateurs. Une plateforme unique est déployée et accompagne les trajectoires d'évolution professionnelle."
+                ]
+              },
+              {
+                "id": 64,
+                "text": "Des outils numériques sont-ils identifiés pour améliorer les processus de recrutement ?",
+                "options": [
+                  "Le numérique n'est pas considéré comme un levier d'amélioration pour le recrutement.",
+                  "Le numérique est un levier d'amélioration pour les processus de recrutement et est déjà utilisé sur certaines phases : sourcing, présélection, évaluation des candidats...",
+                  "Le numérique est systématiquement utilisé sur plusieurs phases du recrutement : sourcing multicanal (sites internet, réseaux sociaux), présélection (entretiens vidéos, ...), évaluation (serious game...).",
+                  "Le numérique fait partie intégrante de l'ensemble du processus de recrutement et des solutions novatrices sont employées (offres personnalisées, analyse sémantique...)."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "automatisation",
+            "title": "Automatisation",
+            "questions": [
+              {
+                "id": 28,
+                "text": "Quel est le degré d'automatisation des processus métiers ?",
+                "options": [
+                  "Aucun processus n'est automatisé et aucune automatisation n'a été planifiée.",
+                  "Aucune automatisation mais certaines études ont été menées pour automatiser des tâches.",
+                  "Quelques tâches répétitives sont automatisées.",
+                  "Les processus sont fortement automatisés. L'utilisation de technologies de RPA est répandue."
+                ]
+              },
+              {
+                "id": 48,
+                "text": "Jusqu'à quel point vos processus sont automatisés et autonomes ?",
+                "options": [
+                  "Aucune étape de notre processus de fabrication ne peut s'effectuer sans intervention humaine.",
+                  "Les processus de fabrication sont partiellement autonomes. Le suivi demande encore largement des interventions manuelles notamment pour la maintenance.",
+                  "L'état machine est suivi de manière automatique et permet de planifier les opérations de maintenance. Un plan de maintenance préventive est établi via un logiciel dédié.",
+                  "L'état machine est corrélé avec les résultats de chaque opération et les dérives sont monitorées. La maintenance prédictive est assurée automatiquement par le propriétaire du parc machine pour maintenir la disponibilité."
+                ]
+              },
+              {
+                "id": 41,
+                "text": "Votre entreprise a-t-elle une stratégie pour la gestion de son automatisation ?",
+                "options": [
+                  "Nous n'avons pas de stratégie globale.",
+                  "Notre stratégie repose sur une automatisation quand un ROI est clairement identifié, ou quand une contrainte extérieure nous l'impose (qualité, cadence, client etc.).",
+                  "Notre outil industriel est un argument de vente. La stratégie d'automatisation et d'investissement est régulièrement réévaluée selon de multiples critères, flexibilité, rapidité, qualité, cadence, taille de lot, prix etc…",
+                  "Notre outil industriel fait de notre entreprise une référence qui contribue à son rayonnement et à sa marque employeur. Nous effectuons une veille active sur l'état de l'art, menons des expérimentations et cherchons à intégrer des technologies innovantes encore en cours de développement."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "automatisation_des_process_industriels",
+            "title": "Automatisation des process industriels",
+            "questions": [
+              {
+                "id": 44,
+                "text": "Quel est le niveau d'automatisation des processus industriels dans leur ensemble ?",
+                "options": [
+                  "Notre processus de fabrication est entièrement manuel, l'implantation des machines est historique et guidée par des contraintes du passé (éclairage naturel, force hydromécanique, etc...).",
+                  "Notre processus de fabrication est en partie automatisé et permet de réduire les coûts et le temps de fabrication. L'implantation respecte le processus de fabrication et l'Ordre de Fabrication est contenu dans la fiche suiveuse papier.",
+                  "Le transfert de pièce entre chaque opération est partiellement géré par un système de convoyeur. L'ordre de fabrication suit la pièce de manière numérique.",
+                  "Le transfert de pièce entre chaque opération est entièrement fluide."
+                ]
+              },
+              {
+                "id": 42,
+                "text": "Quel est le niveau d'automatisation et de monitoring de l'exécution des ordres de Fabrication ?",
+                "options": [
+                  "Le pilotage de la production est réalisé de manière manuelle.",
+                  "Nous avons pris la décision d'automatiser le pilotage de la production via un logiciel MES.",
+                  "Le logiciel MES est mis en place mais pas utilisé à son plein potentiel.",
+                  "Le MES est optimisé et intégré."
+                ]
+              },
+              {
+                "id": 46,
+                "text": "Quel est le niveau d'automatisation de la traçabilité et du suivi de la qualité ?",
+                "options": [
+                  "La qualité de la production est vérifiée manuellement par un opérateur à la fin du processus de fabrication. Une pièce par lot fait l'objet d'un contrôle.",
+                  "La qualité de la production est contrôlée à chaque étape avec des moyens manuels, via une traçabilité papier.",
+                  "La qualité de la production est contrôlée à chaque étape avec des moyens en partie automatisés. L'ordre de fabrication, le composant et son historique de fabrication sont indissociables et font l'objet d'une traçabilité papier.",
+                  "La qualité de la production est automatisée et fait l'objet d'une traçabilité numérique."
+                ]
+              },
+              {
+                "id": 45,
+                "text": "Quel est le niveau de flexibilité de l'outil de production ?",
+                "options": [
+                  "L'outil de production est très manuel. Il n'est pas possible de modifier les postes et les ilots. La flexibilité repose sur la capacité d'adaptation des équipes.",
+                  "L'outil de production dispose d'un haut niveau de qualité, de rapidité et de coût de fabrication. Mais il n'est pas flexible : les ilots et le paramétrage sont complexes à reconfigurer.",
+                  "Certains postes peuvent faire l'objet d'une reconfiguration rapide des ilots et du paramétrage.",
+                  "L'outil de production combine haut niveau de qualité, de rapidité et de coût avec un haut niveau de flexibilité."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "offres_et_relation_client",
+        "title": "Offres et relation client",
+        "sous_themes": [
+          {
+            "id": "vente",
+            "title": "Vente",
+            "questions": [
+              {
+                "id": 1,
+                "text": "Quelle est la visibilité de vos offres en ligne ?",
+                "options": [
+                  "Les services ou les produits sont simplement présentés en ligne.",
+                  "Certains des services proposés sont activables en ligne ou via une application mobile.",
+                  "La majorité des services est accessible et activable en ligne ou via une application mobile.",
+                  "Tous les services qui peuvent l'être sont accessibles et activables en ligne, ou sont en passe de l'être."
+                ]
+              },
+              {
+                "id": 20,
+                "text": "Des contenus d'aide utilisateur/client en ligne (FAQ, chatbot, forums, tutoriaux, vidéos explicatives...) ont-ils été mis en place ?",
+                "options": [
+                  "Aucun contenu d'aide en ligne n'est en place. L'aide s'obtient seulement par téléphone et mail.",
+                  "Une aide, de type FAQ, a été mise en place sur certains services numériques.",
+                  "Une aide en ligne est disponible pour chaque service, avec plusieurs supports différents (FAQ, forums, vidéos explicatives…).",
+                  "En complément, un chat bot est aussi en place pour plusieurs offres."
+                ]
+              },
+              {
+                "id": 2,
+                "text": "Dans quelle mesure le numérique vous permet de développer de nouvelles offres stratégiques pour votre entreprise ?",
+                "options": [
+                  "Aucune offre entièrement numérique n'est proposée.",
+                  "Les offres entièrement numériques sont des initiatives ponctuelles.",
+                  "Plusieurs offres entièrement numériques ont été développées mais elles constituent un bloc à part.",
+                  "Pour répondre à nos objectifs stratégiques, des offres entièrement numériques ont été développées. Elles sont suivies à l'aide d'indicateurs de performance et orientent la stratégie de l'entreprise."
+                ]
+              },
+              {
+                "id": 6,
+                "text": "Comment ces offres vous distinguent-elles de vos concurrents ?",
+                "options": [
+                  "Les offres numériques ont été identifiées comme des éléments différenciants mais aucune action n'a été mise en œuvre.",
+                  "Les offres numériques des concurrents sont bien connues et des initiatives sont en cours pour proposer des offres équivalentes.",
+                  "Nos offres numériques sont similaires à celles des meilleurs concurrents.",
+                  "Notre veille dépasse les seuls concurrents et des offres différentes sont proposées."
+                ]
+              },
+              {
+                "id": 13,
+                "text": "Comment le parcours client et la communication de vos offres sont-ils ajustés à vos différentes cibles ?",
+                "options": [
+                  "Aucune communication numérique n'est réalisée en dehors du site internet. La communication n'est pas adaptée en fonction des publics. Le matériel et les canaux de communication sont les mêmes pour tous les clients.",
+                  "La communication sur les offres est réalisée sur un petit nombre de sites tiers. Des supports spécifiques de communication ont été créés pour certains profils. Ces supports sont communiqués sans être ciblés.",
+                  "La communication sur les offres est réalisée sur plusieurs canaux numériques (sites tiers, Google My Business, réseaux sociaux, emailing, SMS…) / Une réflexion est systématiquement conduite sur l'opportunité de différencier les contenus de communication en fonction des différents profils des clients. Des initiatives ont été lancées pour cibler la communication des contenus.",
+                  "La communication numérique sur les offres est réalisée sur plusieurs canaux numériques. Une équipe est dédiée à la communication numérique / La communication est ciblée. Les parcours clients sont étudiés pour proposer les contenus et choisir les canaux les mieux adaptés à chaque profil."
+                ]
+              },
+              {
+                "id": 4,
+                "text": "En fonction de ces profils, utilisez-vous de nouveaux canaux de commercialisation ?",
+                "options": [
+                  "Notre entreprise ne propose pas de services clients sur de nouveaux canaux tels que la Visio conférence et le web to chat. Aucune réflexion n'a été initiée à ce sujet.",
+                  "Une réflexion a été initiée pour développer des services sur de nouveaux canaux et voir comment ceux-ci peuvent s'articuler avec les offres sur site et les offres en ligne.",
+                  "Quelques offres sont proposées sur de nouveaux canaux tels que la Visio conférence et le web to chat.",
+                  "L'utilisation de nouveaux canaux est généralisée. Les clients ont la possibilité d'accéder aux services sur site via la Visio conférence et le web to chat."
+                ]
+              },
+              {
+                "id": 37,
+                "text": "En fonction de ces profils, utilisez-vous de nouveaux canaux de commercialisation ?",
+                "options": [
+                  "Aucun outil numérique n'est utilisé pour accélérer la vente et les commerciaux passent plus de temps à la réalisation de devis qu'à la prospection.",
+                  "Nous avons identifié des outils pour accélérer la réalisation des devis et automatiser les relances.",
+                  "Les devis sont réalisés en autonomie par les clients ou en direct par les commerciaux.",
+                  "En complément, la signature est électronique et les relances sont automatisées. Les commerciaux consacrent une grande partie de leur temps à la prospection et à la vente de produits complémentaires."
+                ]
+              },
+              {
+                "id": 22,
+                "text": "Dans quelle mesure le numérique modifie l'expérience des clients sur les points de vente et les show room ?",
+                "options": [
+                  "Notre point de vente dispose d'un fond musical/sonore SACEM.",
+                  "Notre point de vente propose un accès wifi gratuit compatible RGPD.",
+                  "Notre point de vente met à disposition des bornes interactives/écrans pour diffuser des informations sur les nouveautés, la promotion et autres événements.",
+                  "Notre point de vente met en libre-service tous les outils du web-in-store (s’informer, commander, payer en ligne, interagir avec le vendeur…)."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "adaptation_des_offres",
+            "title": "Adaptation des offres",
+            "questions": [
+              {
+                "id": 18,
+                "text": "Avez-vous mis en place en interne des outils GRC/CRM ? Ces outils sont-ils intégrés au parcours client (avant-vente, vente et service clients) ?",
+                "options": [
+                  "Notre entreprise ne dispose pas d'un outil GRC (ou CRM).",
+                  "L'outil GRC / CRM existe et est utilisé ponctuellement dans les processus métier de vente, marketing et services clients.",
+                  "L'outil GRC est utilisé dans la plupart des processus métier de vente, marketing et services clients.",
+                  "L'outil GRC est unique et est partie intégrante de tous les processus métier de vente, marketing et services clients. Les données sont communes à l'ensemble des collaborateurs."
+                ]
+              },
+              {
+                "id": 75,
+                "text": "Quelle stratégie est suivie pour collecter les données clients ?",
+                "options": [
+                  "Aucune information sur les utilisateurs des services n'est récoltée.",
+                  "Des informations sur les utilisateurs des services sont récoltées via les canaux traditionnels (site web, emails, appels téléphoniques).",
+                  "Des informations sur les utilisateurs des services sont récoltées via plusieurs canaux traditionnels et numériques (Réseaux sociaux, DMP, e-CRM, mails, contacts téléphoniques, textos, géolocalisation …).",
+                  "Le parcours des utilisateurs des services est étudié en continu et fait l'objet d'une réflexion afin de récolter l'information au bon moment sur des canaux multiples (e-surveys). Il s'agit pour nous d'une thématique identifiée. Une personne est plus spécifiquement en charge de cette mission au sein de notre organisation."
+                ]
+              },
+              {
+                "id": 14,
+                "text": "Comment est mesurée la satisfaction des clients (quels indicateurs, Net Promoter Score, quelle fréquence) ?",
+                "options": [
+                  "La satisfaction client est très peu mesurée.",
+                  "La satisfaction client est recueillie ponctuellement par des campagnes d'enquêtes de satisfaction à chaud ou à froid.",
+                  "La satisfaction client est recueillie systématiquement mais n'est pas mesurée par des indicateurs.",
+                  "La satisfaction client est systématiquement recueillie et mesurée par des indicateurs et est différenciée suivant les canaux utilisés par les clients. Des enseignements stratégiques en sont tirés pour faire évoluer les leviers d'actions."
+                ]
+              },
+              {
+                "id": 78,
+                "text": "Comment et à quelle fréquence est-ce que cette donnée est exploitée pour adapter les business models et les offres ?",
+                "options": [
+                  "Il existe très peu de cas d'usage de valorisation de la donnée recueillie pour définir les business models de notre entreprise.",
+                  "Les données collectées sont analysées a posteriori pour mieux comprendre les clients et adapter les business models de notre entreprise.",
+                  "Les données clients sont suivies en temps réel pour ajuster de manière réactive les business models.",
+                  "Une capitalisation des données clients dans une approche prédictive permet d'anticiper les besoins des clients et d'adapter les business models de notre entreprise."
+                ]
+              },
+              {
+                "id": 10,
+                "text": "Dans quelle mesure la co-création des offres est-elle réalisée avec l'appui de vos clients ?",
+                "options": [
+                  "L'avis des clients est récolté a posteriori de la commercialisation des services en ligne.",
+                  "Les nouveaux services en ligne sont soumis à l'avis de certains clients avant de les élargir.",
+                  "Notre entreprise anime une communauté de clients afin de définir et de tester de nouvelles offres.",
+                  "Une communauté de clients permet de créer et d'ajuster les offres en continu via une plateforme sociale. Le client est au cœur du développement des offres."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sav",
+            "title": "SAV",
+            "questions": [
+              {
+                "id": 16,
+                "text": "Quelles sont les possibilités offertes aux utilisateurs de vos services pour communiquer avec votre entreprise ?",
+                "options": [
+                  "Les clients utilisent exclusivement des canaux de communication traditionnels et directs pour adresser leurs requêtes (mails et téléphone).",
+                  "Pour certains sujets, le client a la possibilité, en plus des canaux traditionnels, d'adresser ses requêtes via les réseaux sociaux ou une application mobile.",
+                  "Pour l'ensemble des sujets, le client peut adresser ses requêtes via tous les canaux de communication (Téléphone, mail, médias sociaux).",
+                  "Quel que soit le sujet, le client peut choisir les canaux qu'il préfère tout en conservant l'historique des échanges."
+                ]
+              },
+              {
+                "id": 15,
+                "text": "Comment sont gérées les réclamations et les avis clients ?",
+                "options": [
+                  "Aucune règle ou processus pour gérer les réclamations n'a été défini.",
+                  "Un processus et des règles ont été définis pour gérer les réclamations.",
+                  "Un processus et des règles ont été définis pour gérer les réclamations. Un service en ligne de réclamation a été mis en place et des référents sont en charge de leur traitement.",
+                  "Un service gère les réclamations. La gestion des réclamations est un point clé de la relation client et les réclamations sont traitées rapidement. Le service répond aux clients sur l'ensemble des canaux et notamment sur les réseaux sociaux."
+                ]
+              },
+              {
+                "id": 31,
+                "text": "Dans quelle mesure les services téléphoniques en lien avec les clients sont-ils connectés à un outil de type CRM ?",
+                "options": [
+                  "Les centres d'appels ou standards téléphoniques n'ont pas d'outil numérique propre à leur métier.",
+                  "Les centres d'appels ou standards téléphoniques disposent d'un outil pour gérer leurs tâches et processus mais celui-ci est décorrélé des autres métiers de la relation client.",
+                  "Les centres d'appels ou standards téléphoniques partagent le même CRM et la même base de données clients que les autres métiers de la relation client.",
+                  "Les centres d'appels ou standards téléphoniques disposent d'un outil CRM commun avec les autres métiers de la relation client. L'ensemble de leurs processus s'effectuent dans le CRM, couplé à la base client."
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ]
-}
+  }
+  

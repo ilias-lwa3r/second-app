@@ -1,7 +1,5 @@
 'use client'
 import React from 'react';
-
-
 import {
   Chart as ChartJS,
   RadialLinearScale,
@@ -22,32 +20,35 @@ ChartJS.register(
   Legend
 );
 
+const RadarChart = ({ RadarLabels, RadarData }) => {
+  const data = {
+    labels: RadarLabels,
+    datasets: [
+      {
+        label: 'Taux de Complétude',
+        data: RadarData,
+        backgroundColor: 'rgba(0,73,83, 0.2)',
+        borderColor: 'rgba(0,73,83, 1)',
+        borderWidth: 2,
+        pointBackgroundColor: 'rgba(0,73,83, 1)',
+      },
+    ],
+  };
 
+  const options = {
+    scales: {
+      r: {
+        beginAtZero: true,
+        suggestedMin: 0,
+        suggestedMax: 100,
+        ticks: {
+          stepSize: 20
+        }
+      }
+    }
+  };
 
-const RadarChart = ({RadarData}) => {
-    return (
-        <Radar
-          data={{
-            labels: [
-              'M11 Digital Business Strategy',
-              'M2.2 Digital Readiness',
-              'M2.3 Human-centric Digitalisation',
-              'M2.4 Data Management and Connectedness',
-              'M2.5 Automation and Artificial Intelligence',
-              'M2.6 Green Digitalisation',
-            ],
-            datasets: [
-              {
-                label: 'DMA Radar',
-                data: RadarData,
-                backgroundColor: 'rgba(0,73,83, 0.2)',
-                borderColor: 'rgba(0,73,83, 1)',
-                borderWidth: 1,
-              },
-            ],
-          }} 
-        />
-    )
-} 
+  return <Radar data={data} options={options} />;
+};
 
 export default RadarChart;

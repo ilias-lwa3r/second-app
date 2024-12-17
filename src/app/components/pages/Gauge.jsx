@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-
 import { 
     Chart as ChartJS, 
     ArcElement, 
@@ -15,34 +14,41 @@ ChartJS.register(
     Legend
 );
 
+const GaugeChart = ({ themeRatio, title, subThemes }) => {
+  const labels = subThemes.map((st) => st.title);
+  const values = subThemes.map((st) => st.ratio);
 
-const GaugeChart = ({GaugeData}) => {
-    return (
-        <Doughnut
-          data={{
-            labels: [
-              'M11 Digital Business Strategy',
-              'Manquant'
-              
-            ],
-            datasets: [
-              {
-                label: 'DMA Radar',
-                data: GaugeData,
-                backgroundColor: ['rgba(38,67,72, 1)','rgba(255,255,255,0'],
-                borderColor: 'rgba(38,67,72, 1)',
-                borderWidth: 1,
-              },
-            ],
-          }}  options= {{
-            rotation: 270, 
-            circumference: 180, 
-            legend: {
-                display: false
-              },
-          }}
-        />
-    )
-} 
+  const data = {
+    labels: [...labels, 'Manquant'],
+    datasets: [
+      {
+        label: title,
+        data: [...values, 100 - themeRatio],
+        backgroundColor: [
+          ...labels.map((_, idx) => `hsl(${idx * 60}, 70%, 50%)`), 
+          'rgba(200,200,200, 0.2)'
+        ],
+        borderColor: [
+          ...labels.map((_, idx) => `hsl(${idx * 60}, 70%, 50%)`), 
+          'rgba(200,200,200, 0.2)'
+        ],
+        borderWidth: 1,
+      },
+    ],
+  };
+
+  const options = {
+    rotation: 270, 
+    circumference: 180, 
+    plugins: {
+      legend: {
+        display: true,
+        position: 'bottom'
+      }
+    }
+  };
+
+  return <Doughnut data={data} options={options} />;
+};
 
 export default GaugeChart;
