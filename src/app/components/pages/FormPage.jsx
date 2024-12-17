@@ -60,7 +60,7 @@ const FormPage = () => {
         const subThemeKey = `${theme.id}-${subTheme.id}`;
         const subThemeAnswers = answers[subThemeKey] || {};
   
-        subTheme.questions.forEach((question, idx) => {
+        subTheme.questions.forEach((_, idx) => {
           const questionKey = `q_${theme.id}_${subTheme.id}_${idx}`;
           totalSubThemeQuestions += 1;
   
@@ -80,8 +80,7 @@ const FormPage = () => {
   
         // Mise à jour des sous-thèmes
         completionRatios[theme.title].subThemes[subTheme.title] = {
-          ratio: subThemeProportion,
-          proportion: totalSubThemeQuestions,
+          ratio: subThemeProportion
         };
   
         // Mise à jour des totaux du thème
@@ -94,14 +93,14 @@ const FormPage = () => {
         ? ((answeredThemeQuestions / totalThemeQuestions) * 100).toFixed(2)
         : 0;
   
-      // Calcul des proportions finales
-      const totalProportion = Object.values(completionRatios[theme.title].subThemes)
-        .reduce((acc, st) => acc + st.proportion, 0);
+      // Calcul des ratios totaux des sous-thèmes
+      const totalRatios = Object.values(completionRatios[theme.title].subThemes)
+        .reduce((acc, curr) => acc + parseFloat(curr.ratio), 0);
   
       Object.keys(completionRatios[theme.title].subThemes).forEach((subTitle) => {
         const subData = completionRatios[theme.title].subThemes[subTitle];
-        subData.relativeProportion = totalProportion > 0
-          ? ((subData.proportion / totalProportion) * 100).toFixed(2)
+        subData.ratio = totalRatios > 0
+          ? ((subData.ratio / totalRatios) * 100).toFixed(2)
           : 0;
       });
     });

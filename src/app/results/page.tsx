@@ -11,7 +11,7 @@ export default function Home() {
     ratio: string;
     subThemes: {
       [key: string]: {
-        relativeProportion: string;
+        ratio: string;
       };
     };
   }
@@ -26,7 +26,7 @@ export default function Home() {
     themeRatio: parseFloat(themeData.ratio),
     subThemes: Object.entries(themeData.subThemes).map(([subTitle, subData]) => ({
       title: subTitle,
-      ratio: parseFloat(subData.relativeProportion),
+      ratio: parseFloat(subData.ratio)
     }))
   }));
 
