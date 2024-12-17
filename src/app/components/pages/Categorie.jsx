@@ -14,25 +14,18 @@ const Categorie = () => {
       </Header>
       <Main>
         <AccueilContainer>
-          <AccueilTitle >
-          <FormTitle>
-              <Link href="/questionnaire">Data Maturity Assessment Tool</Link>
-            </FormTitle>
-          </AccueilTitle>
           <AccueilTitle>
           <FormTitle>
-              <Link href="/questionnaire">Data Maturity Assessment for EDIH Customers</Link>
+              <Link href="/questionnaire?form=1">Transformation Digitale</Link>
             </FormTitle>
           </AccueilTitle>
           <AccueilTitle>
             <FormTitle>
-              <Link href="/questionnaire">Transformation Ecoresponsable</Link>
+              <Link href="/questionnaire?form=2">Innovation</Link>
             </FormTitle>
           </AccueilTitle>
           
         </AccueilContainer>
-       
-        
        
       </Main>
       <Footer>

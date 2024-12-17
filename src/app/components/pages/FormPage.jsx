@@ -4,13 +4,20 @@ import { useRouter } from 'next/navigation';
 import styled from 'styled-components';
 import { Form, Button, Checkbox, Menu, Input } from 'antd';
 import Questions from '../../../data/questions.json';
+import Questions2 from '../../../data/form1.json';
+import { useSearchParams } from "next/navigation";
+
 
 const FormPage = () => {
+  const searchParams = useSearchParams();
   const Router = useRouter();
   const [form] = Form.useForm();
 
+  // Use the correct Questions object
+  const questions = searchParams.get('form') === '1' ? Questions : Questions2;
+
   // Menu Items formatés pour l'arborescence
-  const menuItems = Questions.themes.map((theme) => ({
+  const menuItems = questions.themes.map((theme) => ({
     key: theme.id,
     label: <span style={{ fontWeight: 'bold' }}>{theme.title}</span>,
     children: theme.sous_themes.map((subTheme) => ({
@@ -43,7 +50,7 @@ const FormPage = () => {
   const calculateCompletionRatios = (answers) => {
     const completionRatios = {};
   
-    Questions.themes.forEach((theme) => {
+    questions.themes.forEach((theme) => {
       let totalThemeQuestions = 0;
       let answeredThemeQuestions = 0;
   
