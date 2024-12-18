@@ -137,7 +137,7 @@ const FormPage = () => {
   }, [selectedSubTheme, form, formValues]);
 
   const renderQuestions = (themeId, subThemeId) => {
-    const selectedTheme = Questions.themes.find((t) => t.id === themeId);
+    const selectedTheme = questions.themes.find((t) => t.id === themeId);
     const selectedSubTheme = selectedTheme?.sous_themes.find((st) => st.id === subThemeId);
 
     if (!selectedSubTheme) return null;
